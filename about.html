@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>One Direction</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Style/about.css"> 
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="./Picture/Logo.png" alt="One Direction Logo" width="40" height="40" class="me-2" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="member.html">Member</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="discography.html">Discography</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Konten About -->
+  <div class="container py-5">
+    <h2 class="text-center">About One Direction</h2>
+    <div class="row">
+      <!-- Kolom Kiri -->
+      <div class="col-md-4 mb-4">
+        <img src="./Picture/11.jpg" alt="One Direction awal" class="about-img" />
+        <p>
+          <span class="highlight">One Direction</span> adalah boyband asal Inggris-Irlandia yang dibentuk tahun 2010. Grup ini terkenal karena vokal kuat, kepribadian menarik, dan lagu-lagu pop catchy mereka. Mereka juga terkenal karena kekompakan dan fanbase besar di seluruh dunia.
+        </p>
+        <p>
+          Grup ini terdiri dari Niall, Liam, Harry, Louis, dan Zayn (yang keluar pada 2015). Mereka dikenal melalui X Factor UK dan langsung meraih kesuksesan global.
+        </p>
+      </div>
+
+      <!-- Kolom Tengah (Accordion) -->
+      <div class="col-md-4 mb-4">
+        <div class="accordion" id="accordionAbout">
+          <!-- Biodata -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                Biodata
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionAbout">
+              <div class="accordion-body">
+                <p><strong>One Direction</strong> dibentuk pada tahun 2010 melalui ajang <em>The X Factor</em>. Anggotanya terdiri dari lima pemuda berbakat yang disatukan oleh juri: Harry Styles, Liam Payne, Louis Tomlinson, Niall Horan, dan Zayn Malik.</p>
+                <p>Mereka berasal dari Inggris dan Irlandia, dan langsung menandatangani kontrak dengan Syco Records milik Simon Cowell.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Karier -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                Karier
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionAbout">
+              <div class="accordion-body">
+                <p>One Direction telah merilis lima album studio dan menjalani tur dunia bertajuk <em>Take Me Home Tour</em>, <em>Where We Are Tour</em>, dan lainnya. Mereka memecahkan banyak rekor penjualan album dan tangga lagu.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Program Siaran -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                Program Siaran
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionAbout">
+              <div class="accordion-body">
+                <p>Mereka pernah tampil dalam berbagai acara TV, termasuk sebagai bintang tamu di talkshow Amerika, reality show, dan dokumenter konser seperti <em>This Is Us</em>.</p>
+                <video src="./Music/One Direction_ This is Us Trailer.mp4" controls class="w-100"></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kolom Kanan -->
+      <div class="col-md-4 mb-4">
+        <img src="./Picture/12.jpg" alt="One Direction sekarang" class="about-img" />
+        <p>
+          Setelah hiatus pada tahun 2016, masing-masing anggota mengejar karier solo. <strong>Harry Styles</strong> sukses besar sebagai solois dan aktor. <strong>Niall Horan</strong> merilis album solo, begitu juga dengan <strong>Louis Tomlinson</strong> dan <strong>Liam Payne</strong>. <strong>Zayn Malik</strong> lebih dulu bersolo karier sejak 2015.
+        </p>
+        <p>
+          Meskipun tidak aktif sebagai grup, One Direction tetap dikenang dan dicintai penggemar mereka, Directioners. Banyak yang berharap reuni akan terjadi di masa depan!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p class="footer-text mb-0">&copy; Made with Heart, <a href="https://www.instagram.com/salshanbla_/" target="_blank" class="footer-link">Salsha Nabila</a>.</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/onedirection" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.facebook.com/onedirectionmusic" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://twitter.com/onedirection" target="_blank" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
